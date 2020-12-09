@@ -1,15 +1,2 @@
-body h1 {
-	text-align: center;
-
-}
-
-body > form .label {
-	color: black;
-	width: 1%;
-}
-
-input[type=text]:focus {
-  width: 1%;
-}
-
+World
 
