@@ -1,0 +1,34 @@
+body h1 {
+	text-align: center;
+
+}
+
+body > form .label {
+	color: black;
+	width: 1%;
+}
+
+input[type=text]:focus {
+  width: 1%;
+}
+
+.head {
+	padding: 45px 10px;
+	font-family: fantasy;
+	text-shadow: 5px 3px white;
+background-image: url(https://image.shutterstock.com/image-photo/set-construction-tools-house-renovation-260nw-193420553.jpg);
+background-size: auto;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+.animation {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 14s;
+  animation-iteration-count: infinite;
+}
